@@ -1,27 +1,51 @@
-# distribution
+# 📦 Distribution
 Distributions for Minecraft Servers
 
-Clone and Install Dependencies
+---
 
-> git clone https://github.com/MRYISUSX/distribution.git
+## 🚀 Clonar e instalar dependencias
 
-> cd DinosaurLauncher
+```bash
+git clone https://github.com/MRYISUSX/distribution.git
+cd DinosaurLauncher
+npm install
+```
 
-> npm install
+---
 
-Launch Application
+## ▶️ Ejecutar la aplicación
 
-> npm start
-Build Installers
+```bash
+npm start
+```
 
-To build for your current platform.
+---
 
-> npm run dist
-Build for a specific platform.
+## 🛠️ Construir instaladores
 
-Platform	Command
-Windows x64	npm run dist:win
-macOS	npm run dist:mac
-Linux x64	npm run dist:linux
+### 🖥️ Build para tu plataforma actual
 
-Builds for macOS may not work on Windows/Linux and vice-versa.
+```bash
+npm run dist
+```
+
+### 🧩 Build para una plataforma específica
+
+| Plataforma    | Comando            |
+|---------------|--------------------|
+| Windows x64   | `npm run dist:win` |
+| macOS         | `npm run dist:mac` |
+| Linux x64     | `npm run dist:linux` |
+
+⚠️ **Importante:**  
+Los builds para macOS pueden no funcionar en Windows/Linux y vice-versa.
+
+---
+
+## 📄 Notas
+
+- Asegúrate de tener Node.js y npm instalados (recomendado Node 16+).  
+- Si usas GitHub Actions u otro CI para builds, revisa la configuración de electron-builder (u otra herramienta que uses) para compatibilidad entre plataformas.  
+- Si quieres agregar un icono, resourcepack o configuración predefinida para el launcher, agrégala en la carpeta correspondiente del repositorio y actualiza los scripts de build si es necesario.
+
+---
