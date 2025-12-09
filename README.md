@@ -3,7 +3,7 @@ Distributions for Minecraft Servers
 
 Clone and Install Dependencies
 
-> git clone https://github.com/dscalzi/HeliosLauncher.git
+> git clone https://github.com/MRYISUSX/distribution.git
 > cd HeliosLauncher
 > npm install
 Launch Application
