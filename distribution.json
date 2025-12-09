@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "discord": {
+    "clientId": "",
+    "smallImageText": "Gapple Craft: Gold Age",
+    "smallImageKey": "sevenstar"
+  },
+  "servers": [
+    {
+      "id": "gapple_gold_age",
+      "name": "Gapple Craft: Gold Age",
+      "description": "Servidor dedicado - Vanilla 1.20.1",
+      "icon": "sevenstar",
+      "address": "178.16.140.208",
+      "port": 1337,
+      "version": "vanilla-1_20_1"
+    }
+  ],
+  "modules": [
+    {
+      "id": "vanilla-1_20_1",
+      "type": "Version",
+      "releaseTime": "2025-01-01T00:00:00Z",
+      "time": "2025-01-01T00:00:00Z",
+      "mainClass": "net.minecraft.client.main.Main",
+      "assets": "1.20.1",
+      "javaVersion": 17,
+      "minecraftArguments": "--username ${auth_player_name} --uuid ${auth_uuid} --accessToken ${auth_access_token}",
+      "libraries": [],
+      "inheritsFrom": "1.20.1"
+    }
+  ]
+}
