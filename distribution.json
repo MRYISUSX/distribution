@@ -8,7 +8,7 @@
       "id": "GappleCraft-1.20.1",
       "name": "Gapple Craft: Gold Age",
       "description": "Servidor privado de Gapple Craft: Gold Age",
-      "icon": "http://example.com/server-icon.png",
+      "icon": "app\assets\images\LoadingSeal.png",
       "version": "1.0.0",
       "address": "178.16.140.208:3377",
       "minecraftVersion": "1.20.1",
