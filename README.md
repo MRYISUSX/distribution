@@ -4,8 +4,11 @@ Distributions for Minecraft Servers
 Clone and Install Dependencies
 
 > git clone https://github.com/MRYISUSX/distribution.git
-> cd HeliosLauncher
+
+> cd DinosaurLauncher
+
 > npm install
+
 Launch Application
 
 > npm start
