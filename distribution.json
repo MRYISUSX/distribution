@@ -1,20 +1,32 @@
 {
-  "version": "1.0.0",
-  "java": {
-    "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-  },
-  "servers": [
-    {
-      "id": "GappleCraft-1.20.1",
-      "name": "Gapple Craft: Gold Age",
-      "description": "Servidor privado de Gapple Craft: Gold Age",
-      "icon": "https://raw.githubusercontent.com/MRYISUSX/distribution/main/dinosaurlogo.png",
-      "version": "1.0.0",
-      "address": "PermABA.aternos.me",
-      "minecraftVersion": "1.20.1",
-      "mainServer": true,
-      "autoconnect": false,
-      "modules": []
-    }
-  ]
+    "meta": {
+        "name": "Dinosaur Studio Vanilla",
+        "description": "Distribución oficial Vanilla para el launcher Dinosaur",
+        "version": "1.0.0"
+    },
+    "channels": [
+        {
+            "id": "release",
+            "name": "Vanilla Release",
+            "description": "Versión Vanilla oficial del estudio",
+            "versions": [
+                {
+                    "id": "vanilla-1.20.1",
+                    "type": "release",
+                    "releaseDate": "2025-01-01T00:00:00Z",
+                    "mcVersion": "1.20.1",
+                    "requires": [],
+                    "modLoaders": [
+                        {
+                            "type": "vanilla",
+                            "id": "1.20.1"
+                        }
+                    ],
+                    "mods": [],
+                    "serverList": [],
+                    "mainClass": null
+                }
+            ]
+        }
+    ]
 }
