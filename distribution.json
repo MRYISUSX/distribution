@@ -7,7 +7,7 @@
       id: 'MyFabricServer-1.20.1',
       name: 'GappleCraft: Golden Age Survival',
       description: 'Un servidor survival enfocado en la comunidad y la diversión. ¡Únete a nosotros para una experiencia de juego inolvidable!',
-      icon: "https://raw.githubusercontent.com/MRYISUSX/distribution/main/dinosaurlogo.png",
+      icon: 'https://raw.githubusercontent.com/MRYISUSX/distribution/main/dinosaurlogo.png',
       version: '1.0.0',
       address: 'gapplecraft-beta1.aternos.me',
       minecraftVersion: '1.20.1',
