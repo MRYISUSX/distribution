@@ -12,7 +12,7 @@
       "address": "gapplecraft-beta1.aternos.me",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
-      "autoconnect": false,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.18.2",
