@@ -117,6 +117,15 @@
           }
         },
         {
+          "id": "com.yourusername:puzzleslib:8.1.33@jar",
+          "name": "PuzzlesLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123456, 
+            "url": "https://raw.githubusercontent.com/MRYISUSX/distribution/main/PuzzlesLib-v8.1.33-1.20.1-Fabric.jar"
+          }
+        }
+        {
           "id": "fuzs.betteranimationscollection:betteranimationscollection:8.0.1@jar",
           "name": "Better Animations Collection",
           "type": "FabricMod",
