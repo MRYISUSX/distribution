@@ -1,32 +1,98 @@
 {
-    "meta": {
-        "name": "Dinosaur Studio Vanilla",
-        "description": "Distribución oficial Vanilla para el launcher Dinosaur",
-        "version": "1.0.0"
-    },
-    "channels": [
+  version: '1.0.0',
+  rss: '',
+  discord: { clientId: '', smallImageText: '', smallImageKey: '' },
+  servers: [
+    {
+      id: 'MyFabricServer-1.20.1',
+      name: 'GappleCraft: Golden Age Survival',
+      description: 'Un servidor survival enfocado en la comunidad y la diversión. ¡Únete a nosotros para una experiencia de juego inolvidable!',
+      icon: "https://raw.githubusercontent.com/MRYISUSX/distribution/main/dinosaurlogo.png",
+      version: '1.0.0',
+      address: 'gapplecraft-beta1.aternos.me',
+      minecraftVersion: '1.20.1',
+      discord: {
+        shortId: '<FILL IN OR REMOVE DISCORD OBJECT>',
+        largeImageText: '<FILL IN OR REMOVE DISCORD OBJECT>',
+        largeImageKey: '<FILL IN OR REMOVE DISCORD OBJECT>'
+      },
+      mainServer: false,
+      autoconnect: false,
+      javaOptions: undefined,
+      modules: [
         {
-            "id": "release",
-            "name": "Vanilla Release",
-            "description": "Versión Vanilla oficial del estudio",
-            "versions": [
-                {
-                    "id": "vanilla-1.20.1",
-                    "type": "release",
-                    "releaseDate": "2025-01-01T00:00:00Z",
-                    "mcVersion": "1.20.1",
-                    "requires": [],
-                    "modLoaders": [
-                        {
-                            "type": "vanilla",
-                            "id": "1.20.1"
-                        }
-                    ],
-                    "mods": [],
-                    "serverList": [],
-                    "mainClass": null
-                }
-            ]
+          id: 'net.fabricmc:fabric-loader:0.18.2',
+          name: 'Fabric (fabric-loader)',
+          type: 'Fabric',
+          artifact: [Object],
+          subModules: [Array]
+        },
+        {
+          id: 'dev.architectury.utils:architectury:9.2.14@jar',
+          name: 'Architectury',
+          type: 'FabricMod',
+          artifact: [Object]
+        },
+        {
+          id: 'fuzs.betteranimationscollection:betteranimationscollection:8.0.1@jar',
+          name: 'Better Animations Collection',
+          type: 'FabricMod',
+          artifact: [Object],
+          required: [Object]
+        },
+        {
+          id: 'me.cominixo:betterf3:7.0.2@jar',
+          name: 'BetterF3',
+          type: 'FabricMod',
+          artifact: [Object],
+          required: [Object]
+        },
+        {
+          id: 'io.socol:betterthirdperson:1.9.0@jar',
+          name: 'Better Third Person',
+          type: 'FabricMod',
+          artifact: [Object],
+          required: [Object]
+        },
+        {
+          id: 'generated.fabricmod:fabric-api:0.92.6+1.20.1@jar',
+          name: 'Fabric API',
+          type: 'FabricMod',
+          artifact: [Object]
+        },
+        {
+          id: 'dlovin.inventoryhud:inventoryhud:3.4.26@jar',
+          name: 'Inventory HUD +',
+          type: 'FabricMod',
+          artifact: [Object],
+          required: [Object]
+        },
+        {
+          id: 'fi.dy.masa:malilib:0.16.3@jar',
+          name: 'MaLiLib',
+          type: 'FabricMod',
+          artifact: [Object]
+        },
+        {
+          id: 'io.github.ennuil:ok_zoomer:5.4.0-beta.8@jar',
+          name: 'Ok Zoomer',
+          type: 'FabricMod',
+          artifact: [Object],
+          required: [Object]
+        },
+        {
+          id: 'me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar',
+          name: 'Sodium',
+          type: 'FabricMod',
+          artifact: [Object]
+        },
+        {
+          id: 'xaero.minimap:xaerominimap:25.2.10@jar',
+          name: "Xaero's Minimap",
+          type: 'FabricMod',
+          artifact: [Object]
         }
-    ]
+      ]
+    }
+  ]
 }
