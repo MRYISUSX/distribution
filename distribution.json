@@ -4,6 +4,7 @@
   "servers": [
     {
       "id": "GappleCraftv1",
+      "type": "Server",
       "name": "GappleCraft: Golden Age (Beta 1)",
       "description": "Servidor privado de GappleCraft: Gold Age",
       "icon": "https://raw.githubusercontent.com/MRYISUSX/distribution/main/dinosaurlogo.png",
@@ -12,6 +13,7 @@
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": false,
+
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.18.2",
@@ -106,10 +108,6 @@
           ]
         },
 
-        //
-        // MODS (ya NO usan localhost, ahora usan tu GitHub RAW donde los estás subiendo)
-        //
-
         {
           "id": "dev.architectury.utils:architectury:9.2.14@jar",
           "name": "Architectury",
@@ -157,7 +155,7 @@
         },
         {
           "id": "dlovin.inventoryhud:inventoryhud:3.4.26@jar",
-          "name": "Inventory HUD +",
+          "name": "Inventory HUD+",
           "type": "FabricMod",
           "artifact": {
             "size": 237573,
