@@ -7,7 +7,7 @@
       "type": "Server",
       "name": "GappleCraft: Golden Age (Beta 1)",
       "description": "Servidor privado de GappleCraft: Gold Age",
-      "icon": "https://raw.githubusercontent.com/MRYISUSX/distribution/main/dinosaurlogo.png",
+      "icon": "https://raw.githubusercontent.com/MRYISUSX/distribution/main/gapplecraft.png",
       "version": "1.0.0",
       "address": "gapplecraft-beta1.aternos.me",
       "minecraftVersion": "1.20.1",
