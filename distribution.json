@@ -117,6 +117,15 @@
           }
         },
         {
+          "id": "com.yourusername:forgeconfigapiport:8.0.2@jar",
+          "name": "ForgeConfigAPIPort",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 123456,
+            "url": "https://raw.githubusercontent.com/MRYISUSX/distribution/main/ForgeConfigAPIPort-v8.0.2-1.20.1-Fabric.jar"
+          }
+        },
+        {
           "id": "com.yourusername:puzzleslib:8.1.33@jar",
           "name": "PuzzlesLib",
           "type": "FabricMod",
