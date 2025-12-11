@@ -1,5 +1,16 @@
 {
   "version": "1.0.0",
+  "java": {
+    "jre": {
+      "windows": {
+        "x64": {
+          "url": "https://github.com/MRYISUSX/distribution/releases/download/jre/OpenJDK17.zip",
+          "sha1": "1BBB17021C834E353E89E3A8A47411E7533080B9",
+          "size": 190698548
+        }
+      }
+    }
+  },
   "rss": "",
   "servers": [
     {
