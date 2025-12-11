@@ -5,8 +5,8 @@
       "windows": {
         "x64": {
           "url": "https://github.com/MRYISUSX/distribution/releases/download/jre/OpenJDK17.zip",
-          "sha1": "6057BD1468E5F68FE7D19BFE8E790E57779AC440",
-          "size": 190058034
+          "sha1": "D9F404ED68670412A42F5456FABAC0931693183E",
+          "size": 190046322
         }
       }
     }
