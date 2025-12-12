@@ -4,6 +4,10 @@
     "distribution": "adoptium",
     "suggestedMajor": 17
   },
+  "javaOptions": {
+    "minJavaVersion": 17,
+    "maxJavaVersion": 17
+  },
   "rss": "",
   "servers": [
     {
