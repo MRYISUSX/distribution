@@ -2,6 +2,7 @@
   "version": "1.0.0",
   "java": {
     "distribution": "adoptium",
+    "supported": [17],
     "suggestedMajor": 17
   },
   "javaOptions": {
